@@ -54,3 +54,14 @@ let firstVariable = "Hello World"
 //console.log(a < b < c);
 //console.log(a + a < d);
 //console.log(48 == '48');
+
+//The Farm
+
+//1
+//let animal = "pig";
+
+//if (animal == "cow") {
+//    console.log("moooooo");
+//} else {
+//    console.log("Hey! You're not a cow.");
+//}
