@@ -148,4 +148,22 @@ let firstVariable = "Hello World"
 
 //B
 //1
-const quotes = ["hello", "how are you", "good bye"];
+const quotes = ["hello", "how are you", "good bye"]
+
+//C
+const randomThings = [1, 10, "Hello", true]
+//1
+randomThings[2];
+//2
+randomThings[2] = "world";
+//3
+//console.log(randomThings[2]);
+
+//D change values
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+//1
+ourClass[2]
+//2
+ourClass[4] = "Octcat";
+//3
+ourClass[5] = "Cloud City";
