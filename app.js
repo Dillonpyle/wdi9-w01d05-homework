@@ -184,5 +184,17 @@ myArray.unshift("Bob Marley");
 //4
 myArray.pop("Another string");
 
-//5
+//5 Yes it reversed the indexs of the array. yes, it means to change or alter an array
 myArray.reverse();
+
+//F biggie smalls
+//1
+//for (let i = 0; i <= 25; i++) {
+//    if (i < 5) {
+//        console.log(` ${i} little number`)
+//    } else if (i >= 6 && i > 10) {
+//        console.log(`${i} big number`);
+//    } else {
+//        console.log(`${i} monkey`);
+//    }
+//}
