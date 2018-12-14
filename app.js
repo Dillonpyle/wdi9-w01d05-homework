@@ -167,3 +167,22 @@ ourClass[2]
 ourClass[4] = "Octcat";
 //3
 ourClass[5] = "Cloud City";
+
+//E mix it up
+const myArray = [5, 10, 500, 20]
+//1
+myArray.push("egon");
+
+myArray.push("Another string");
+
+//2
+myArray.splice(0, 1);
+
+//3
+myArray.unshift("Bob Marley");
+
+//4
+myArray.pop("Another string");
+
+//5
+myArray.reverse();
