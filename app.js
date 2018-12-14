@@ -20,3 +20,17 @@ console.log("working");
 
 //6
 //until you understand the steps involved to get to the final answer.
+
+//Strings
+
+//1
+let firstVariable = "Hello World"
+
+
+//2
+
+const printGreeting = (yourName) => {
+    console.log(`hello there, ${yourName}`);
+}
+
+printGreeting("Dillon");
