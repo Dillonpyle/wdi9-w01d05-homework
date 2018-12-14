@@ -105,6 +105,18 @@ let firstVariable = "Hello World"
 //}
 
 //2
-for (let i = 2; i <= 100; i += 2) {
-    console.log(`${i} is an even number`);
-}
+//for (let i = 2; i <= 100; i += 2) {
+//    console.log(`${i} is an even number`);
+//}
+
+//give me five
+
+//1 & 2
+
+//for (let i = 0; i <= 100; i++) {
+//  if (i % 5 == 0) {
+//    console.log(`I found a ${i}. High five!`)
+//} else if (i % 3 == 0) {
+//  console.log(`I found ${i}. Three is a crowd`)
+//}
+//}
