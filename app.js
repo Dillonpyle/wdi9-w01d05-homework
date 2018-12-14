@@ -131,8 +131,21 @@ let firstVariable = "Hello World"
 //console.log(sum);
 
 //2
-let sumBonus = 0;
-for (let i = 1; i <= 100; i++) {
-    sumBonus += i * 2
-}
-console.log(sumBonus);
+//let sumBonus = 0;
+//for (let i = 1; i <= 100; i++) {
+//    sumBonus += i * 2
+//}
+//console.log(sumBonus);
+
+//Arrays & control flow
+
+//A
+//1 variables
+
+//2 Yes
+
+//3 Car brands
+
+//B
+//1
+const quotes = ["hello", "how are you", "good bye"];
