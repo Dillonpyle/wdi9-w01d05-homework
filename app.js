@@ -57,7 +57,7 @@ let firstVariable = "Hello World"
 
 //The Farm
 
-//1
+//1 2 & 3
 //let animal = "pig";
 
 //if (animal == "cow") {
@@ -65,3 +65,14 @@ let firstVariable = "Hello World"
 //} else {
 //    console.log("Hey! You're not a cow.");
 //}
+
+//Drivers Ed
+
+//1 2 & 3
+let bob = 12;
+
+if (bob >= 16) {
+    console.log("Here are the keys");
+} else {
+    console.log("Sorry, youre too young.")
+}
