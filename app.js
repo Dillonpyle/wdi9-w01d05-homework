@@ -69,10 +69,30 @@ let firstVariable = "Hello World"
 //Drivers Ed
 
 //1 2 & 3
-let bob = 12;
+//let bob = 12;
 
-if (bob >= 16) {
-    console.log("Here are the keys");
-} else {
-    console.log("Sorry, youre too young.")
-}
+//if (bob >= 16) {
+//    console.log("Here are the keys");
+//} else {
+//    console.log("Sorry, youre too young.")
+//}
+
+//loops
+
+//A
+
+//1
+//for (let i = 0; i <= 10; i++) {
+//    console.log(i);
+//}
+
+//2
+//for (let i = 10; i <= 400; i++) {
+//    console.log(i);
+//}
+
+//3
+
+//for (let i = 12; i <= 4000; i += 3) {
+//    console.log(i);
+//}
