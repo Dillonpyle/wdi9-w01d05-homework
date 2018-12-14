@@ -187,8 +187,18 @@ myArray.pop("Another string");
 //5 Yes it reversed the indexs of the array. yes, it means to change or alter an array
 myArray.reverse();
 
-//F biggie smalls
-//1
+//F biggigie smalls
+
+//for (let i = 0; i <= 120; i++) {
+//    if (i < 100) {
+//        console.log(`${i} is a little number`);
+//    } else if (i >= 100) {
+//        console.log(`${i} is a big number`);
+//    }
+//}
+
+//monkey in the middle
+//1, 2, & 3
 //for (let i = 0; i <= 25; i++) {
 //    if (i < 5) {
 //        console.log(` ${i} little number`)
