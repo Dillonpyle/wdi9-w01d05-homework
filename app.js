@@ -120,3 +120,19 @@ let firstVariable = "Hello World"
 //  console.log(`I found ${i}. Three is a crowd`)
 //}
 //}
+
+//saving account
+//1
+
+//let sum = 0;
+//for (let i = 1; i <= 10; i++) {
+//    sum += i
+//}
+//console.log(sum);
+
+//2
+let sumBonus = 0;
+for (let i = 1; i <= 100; i++) {
+    sumBonus += i * 2
+}
+console.log(sumBonus);
