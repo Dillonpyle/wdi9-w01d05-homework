@@ -96,3 +96,15 @@ let firstVariable = "Hello World"
 //for (let i = 12; i <= 4000; i += 3) {
 //    console.log(i);
 //}
+
+//get even
+
+//1
+//for (let i = 2; i <= 100; i += 2) {
+//    console.log(i);
+//}
+
+//2
+for (let i = 2; i <= 100; i += 2) {
+    console.log(`${i} is an even number`);
+}
