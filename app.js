@@ -244,7 +244,7 @@ const thomsCloset = [
 ];
 
 //1
-console.log(`Kristyn is rocking that ${kristynsCloset[2]} today`);
+//console.log(`Kristyn is rocking that ${kristynsCloset[2]} today`);
 
 //2
 kristynsCloset.splice(6, 0, "raybans");
@@ -253,16 +253,49 @@ kristynsCloset.splice(6, 0, "raybans");
 kristynsCloset.splice(7, 1, "stained knit hat");
 
 //4
-console.log(thomsCloset[0][0]);
+//console.log(thomsCloset[0][0]);
 
 //5
-console.log(thomsCloset[1][0]);
+//console.log(thomsCloset[1][0]);
 
 //6
-console.log(thomsCloset[2][0]);
+//console.log(thomsCloset[2][0]);
 
 //7
-console.log(`thom is looking fierce in a ${thomsCloset[0][0]}, ${thomsCloset[1][1]}, and ${thomsCloset[2][2]}`);
+//console.log(`thom is looking fierce in a ${thomsCloset[0][0]}, ${thomsCloset[1][1]}, and ${thomsCloset[2][2]}`);
 
 //8
 thomsCloset[1].splice(2, 1, "footie Pajamas");
+
+//Functions
+
+//A printGreeting
+//const printGreeting = (name) => {
+//    console.log(`hello there, ${name}`);
+//}
+
+//printGreeting("slimer");
+
+//B printCool
+//const printCool = (name) => {
+//    console.log(`${name} is cool`);
+//}
+
+//printCool("Captain Reynolds");
+
+//C calculateCube
+//const calculateCube = (side) => {
+//    console.log(Math.pow(side, 3));
+//}
+//calculateCube(5);
+
+//D isVowel
+//const isVowel = (letter) => {
+//    if (letter === "a" || letter === "e" || letter === "i" || letter === "o" || letter === "u" || letter === "y") {
+//        return true
+//    } else {
+//        return false
+//    }
+//}
+
+//console.log(isVowel("a"));
