@@ -299,3 +299,12 @@ thomsCloset[1].splice(2, 1, "footie Pajamas");
 //}
 
 //console.log(isVowel("a"));
+
+let getTwoLengths = (a, b) => {
+    for (i = 1; a.length && b.length; i++) {
+        return [a.length, b.length]
+    }
+
+
+}
+console.log(getTwoLengths("hank", "hippopopalous"));
