@@ -423,3 +423,29 @@ user.purchased.push("Merino jodhpurs");
 
 //4
 console.log(user.purchased[2]);
+
+//E object within object
+user.friend = {
+    name: "Grace Hopper",
+    age: 85,
+    location: "OKC",
+    purchased: []
+}
+
+//2
+console.log(user.friend.name);
+
+//3
+console.log(user.friend.location);
+
+//4
+user.friend.age = 55;
+
+//5
+user.friend.purchased.push("the one ring");
+
+//6
+user.friend.purchased.push("a latte");
+
+//7
+console.log(user.friend.purchased[1]);
