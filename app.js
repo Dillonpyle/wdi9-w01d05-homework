@@ -404,5 +404,9 @@ const user = {
     purchased: []
 }
 
+//B update the user
 user.email = "www.gmail2.com";
 user.age++
+
+//C adding keys and values
+user.location = "Denver";
