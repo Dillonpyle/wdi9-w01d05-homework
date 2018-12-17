@@ -148,7 +148,7 @@ let firstVariable = "Hello World"
 
 //B
 //1
-const quotes = ["hello", "how are you", "good bye"]
+const quotes = ["hello", "how are you", "good bye", "newelement", "extra thing", "more stuff"]
 
 //C
 const randomThings = [1, 10, "Hello", true]
@@ -300,11 +300,109 @@ thomsCloset[1].splice(2, 1, "footie Pajamas");
 
 //console.log(isVowel("a"));
 
-let getTwoLengths = (a, b) => {
-    for (i = 1; a.length && b.length; i++) {
-        return [a.length, b.length]
+//let getTwoLengths = (a, b) => {
+//    for (i = 1; a.length && b.length; i++) {
+//        return [a.length, b.length]
+//    }
+//}
+//console.log(getTwoLengths("hank", "hippopopalous"));
+
+// F get multiple lengths
+const getMultipleLengths = (words) => {
+    for (i = 1; i <= words.length; i++) {
+        let str = words.toString();
+
+        return str.length
     }
-
-
 }
-console.log(getTwoLengths("hank", "hippopopalous"));
+
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+//const maxOfThree = (a, b, c) => {
+//    if (a >= b && a >= c) {
+//        return a
+//    } else if (b > a && b > c) {
+//        return b
+//    } else {
+//        return c
+//    }
+//}
+
+//console.log(maxOfThree(3, 5, 1));
+
+//const printLongestWord = (strArray) => {
+//    let longestWordIndex = 0;
+//    let longest = 0;
+//    for (let i = 0; i < strArray.length; i++) {
+//        if (strArray[i].length > longest) {
+//            longestWordIndex = i;
+//            longest = strArray[i].length;
+//        }
+//    }
+//    return strArray[longestWordIndex];
+//}
+
+//console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+//I transmogrify
+//const transmorgrify = (a, b, c) => {
+//    total = Math.pow(a * b, c);
+//    return total
+//}
+
+//console.log(transmorgrify(5, 3, 2));
+
+//j reverseWordOrder v2
+//const reverseWordOrderV2 = (str) => {
+//    let reversed = "";
+//    for (let i = str.length - 1; i >= 0; i--) {
+//        reversed += str[i];
+//    }
+//    return reversed
+//}
+
+//console.log(reverseWordOrderV2("hello"));
+
+//k Get down and dirty with Math.random()
+
+//1
+const getRandomInt = (min, max) => {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(getRandomInt(1, 10));
+
+//2
+console.log(getRandomInt(10, 100));
+
+const getRandomNum = (min, max) => {
+    return Math.random() * (max - min) + min;
+}
+
+//3
+console.log(getRandomNum(532, 13267));
+
+//4
+console.log(getRandomNum(1, 10));
+
+//5
+
+const getRandomElement = (rand) => {
+
+    return quotes[Math.floor(Math.random() * quotes.length)]
+}
+console.log(getRandomElement(quotes));
+
+//objects
+
+//a make a user object
+
+//1 & 2
+const user = {
+    name: "Dillon",
+    email: "www.gmail.com",
+    age: 27,
+    purchased: []
+}
+
+user.email = "www.gmail2.com";
+user.age++
