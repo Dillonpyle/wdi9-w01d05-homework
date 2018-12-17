@@ -410,3 +410,16 @@ user.age++
 
 //C adding keys and values
 user.location = "Denver";
+
+//D shopaholic
+//1
+user.purchased.push("carbohydrates");
+
+//2
+user.purchased.push("peace of mind");
+
+//3
+user.purchased.push("Merino jodhpurs");
+
+//4
+console.log(user.purchased[2]);
